@@ -12,3 +12,6 @@
 .DS_Store
 Thumbs.db
 **/hello.txt
+# Terraform variable files
+**/*.tfvars
+**/*.tfvars.json
