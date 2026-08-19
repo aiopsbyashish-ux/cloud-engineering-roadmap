@@ -140,3 +140,27 @@ This lab will introduce:
 
 \- Availability Zone dependencies
 
+
+## 2026-08-19 - Conditional Infrastructure and Optional EBS
+
+### Hands-on Progress
+
+Completed:
+
+- AWS Lab 05 - Conditional Infrastructure and Optional EBS Volume
+
+### New Concepts
+
+- Optional Terraform inputs using `null`
+- Conditional expressions
+- Conditional resource creation using `count`
+- Indexed resource addressing
+- Optional EBS volume creation
+- EBS volume attachment
+- EC2 and EBS Availability Zone dependency
+- Dependency relationships before values are known
+- Infrastructure attachment vs operating-system configuration
+
+### Handbook
+
+- Added Chapter 8 - Conditional Infrastructure.
