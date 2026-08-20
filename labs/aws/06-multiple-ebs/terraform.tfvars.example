@@ -1,0 +1,13 @@
+aws_region         = "eu-north-1"
+project_name       = "Terraform EC2 Module Lab"
+environment        = "Lab"
+vpc_cidr           = "10.0.0.0/16"
+public_subnet_cidr = "10.0.1.0/24"
+availability_zone  = "eu-north-1c"
+
+instance_name    = "module-web-server"
+instance_type    = "t3.micro"
+root_volume_size = 8
+
+associate_public_ip_address = true
+enable_detailed_monitoring  = false

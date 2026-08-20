@@ -143,16 +143,27 @@ Hands-on Lab:
 Hands-on Lab:
 - AWS Lab 05 - EC2 with Optional EBS Volume
 
-### Chapter 9 - Terraform Collections and Dynamic Infrastructure
-- Lists
-- Sets
+### Chapter 9 - Resource Iteration and Collections
+- Terraform Collections
 - Maps
 - Objects
-- for Expressions
+- Map of Objects
+- Structured Infrastructure Inputs
+- count vs for_each
 - for_each
+- each.key
+- each.value
+- Key-Based Resource Identity
 - Multiple Resource Creation
+- Terraform for Expressions
+- Collection Transformation
 - Multiple EBS Volumes
 - Designing Flexible Module Inputs
+- Adding and Removing Collection Members
+- Stable Resource Keys
+
+Hands-on Lab:
+- AWS Lab 06 - Multiple EBS Volumes with for_each
 
 ### Chapter 10 - Terraform State for Teams
 - Local State Limitations
